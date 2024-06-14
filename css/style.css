@@ -91,6 +91,12 @@ body{
     border-radius: 15px;
     background-color: hsl(var(--secondary-color));
     color: hsl(var(--light-color));
+    cursor: pointer;
+}
+
+.left-wrapper button:hover{
+    background-color: #3c3e52;
+    color: white;
 }
 
 
@@ -166,6 +172,15 @@ body{
     font-size: 18px;
     font-weight: 500;
     gap: 10px;
+    cursor: pointer;
+}
+
+.cross-one li:hover{
+    color: blue;
+}
+
+.cross-two li:hover{
+    color: blue;
 }
 
 .cross-two{
@@ -175,6 +190,7 @@ body{
     font-size: 18px;
     font-weight: 500;
     gap: 10px;
+    cursor: pointer;
 }
 
 .wrapper-one h3{
@@ -345,6 +361,12 @@ body{
     border-radius: 15px;
     background-color: hsl(var(--secondary-color));
     color: hsl(var(--light-color));
+    cursor: pointer;
+}
+
+.left-side button:hover{
+    background-color: #3c3e52;
+    color: white;
 }
 
 .right-side img{
@@ -394,6 +416,10 @@ body{
     margin-top: 20px;
 }
 
+.case-study a:hover{
+    color: blue;
+}
+
 .arrow svg path {
     stroke: hsl(var(--primary-color));
 }
@@ -440,14 +466,14 @@ body{
 }
 
 .accordion-icon {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border: 1px solid #333;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: clamp(39px, 5vw, 50px);
     font-weight: bold;
     color: #333;
 }
@@ -536,6 +562,12 @@ body{
     color: hsl(var(--light-color));
     margin-left: 80%;
     margin-top: 30px;
+    cursor: pointer;
+}
+
+.team-btn:hover{
+    background-color: #3c3e52;
+    color: white;
 }
 
 .slider-container {
@@ -780,7 +812,9 @@ body{
 }
 
 .contact-form button:hover {
-    background: #555;
+    /* background: #555; */
+    background-color: #3c3e52;
+    color: white;
 }
 
 .input-image img{
@@ -898,6 +932,11 @@ body{
     font-size: clamp(16px, 5vw, 18px);
     font-weight: 500;
     cursor: pointer;
+}
+
+.footright-wrapper button:hover{
+    background-color: #60af00;
+    color: hsl(var(--light-color));
 }
 
 .foot-bottom{
@@ -1421,6 +1460,11 @@ body{
     .accordion-word{
         width: 100%;
         /* padding: 10px; */
+    }
+
+    .accordion-icon{
+        width: 30px;
+        height: 30px;
     }
 
     .team-container {
